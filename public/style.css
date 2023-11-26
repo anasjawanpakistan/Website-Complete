@@ -1,0 +1,100 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(./pic.jpg);
+    
+}
+.left{
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid red; */
+
+}
+.left img{
+    width: 136px;
+    filter: invert(100%);
+}
+.left div{
+    text-align: center;
+    line-height: 19px;
+    font-size: 26px;
+    
+}
+
+.mid{
+    display: block;
+    width: 37%;
+    margin: 12px auto ;
+    /* border: 2px solid green; */
+
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+    
+}
+.navbar li a{
+color: white;
+text-decoration: none;
+padding: 20px 20px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: grey;
+}
+.btn{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px 20px;
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(68, 66, 66);
+}
+.container{
+    /* border: 2px solid green;  */
+    margin: 200px 14px;
+    padding: 47px 42px;
+    width: 67%;
+    border-radius: 2px;
+}
+.form-add input{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    display: block;
+    width: 245px;
+    padding: 18px;
+    border: 3px solid black;
+    margin: 16px auto;
+    font-size: 16px;
+    border-radius: 20px;
+
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    margin: auto;
+    width: 250px ;
+}
